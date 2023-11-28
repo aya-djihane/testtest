@@ -9,11 +9,14 @@ import 'package:ar_flutter_plugin/ar_flutter_plugin.dart';
 import 'package:flutter/services.dart';
 import 'package:testtest/screen/slpash_screen.dart';
 
-void main() => runApp(MyApp());
+void main()
+  =>
+runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       home: SplashScreen(),
     );
